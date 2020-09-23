@@ -17,4 +17,4 @@ new_dog.collar
 e
 
 spencer = User.new
-sophie.send("#{method_name}=", value)
+spencer.send("#{method_name}=", value)

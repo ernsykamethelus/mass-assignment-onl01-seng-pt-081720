@@ -8,6 +8,5 @@ class Person
      def add_attributes(attributes)
     add_attributes.each {|key, value| self.send(("#{key}="), value)}
   end
-  
 end
 

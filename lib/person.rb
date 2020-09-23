@@ -6,8 +6,7 @@ class Person
     end
     
      def add_attributes(attributes)
-    @collar = collar
-    @toys = toys
+    add_attributes.each {|key, value| self.send(("#{key}="), value)}
   end
   
 end

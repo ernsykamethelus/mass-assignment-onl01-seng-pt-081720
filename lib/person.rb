@@ -11,10 +11,3 @@ class Person
   
 end
 
-new_dog = Dog.new()
-new_dog.add_attributes(collar:"red",toys:"ball")
-new_dog.collar
-e
-
-spencer = User.new
-spencer.send("#{method_name}=", value)

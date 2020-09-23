@@ -5,3 +5,6 @@ class Person
       attributes.each {|key, value| self.send(("#{key}="), value)}
     end
 end
+
+spencer = User.new
+sophie.send("#{method_name}=", value)
